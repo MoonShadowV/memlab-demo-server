@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "output",
+    "baseUrl": "./",
+    "strictNullChecks": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@app/*": ["app/*"],
+    },
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "static", "test", "output"]
+}
